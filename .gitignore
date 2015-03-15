@@ -49,3 +49,7 @@ Temp
 *.unityproj
 *.sln
 *.userprefs
+
+# Unityで、Standard Assets類を無視する.
+Assets/Editor
+Assets/Standard Assets
