@@ -183,7 +183,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3b46d52966ebf3a40ac0d670fd26e04d, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 3b46d52966ebf3a40ac0d670fd26e04d, type: 3}
       propertyPath: m_UseLightProbes
@@ -491,7 +491,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 70c802d2104f1d248bc31d8b57e451b5, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 70c802d2104f1d248bc31d8b57e451b5, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -557,7 +557,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1f38e6c70bec34248a8a571f8753d7d8, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f38e6c70bec34248a8a571f8753d7d8, type: 3}
@@ -603,7 +603,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6e815b114ed849c4e8941cc70b768421, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6e815b114ed849c4e8941cc70b768421, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -709,7 +709,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5d2fcdad388aafb42be25d3aee2a9b8f, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 5d2fcdad388aafb42be25d3aee2a9b8f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -791,7 +791,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0645ff246d3be2748845ceb93c8e017f, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 0645ff246d3be2748845ceb93c8e017f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -824,6 +824,44 @@ BoxCollider:
 GameObject:
   m_PrefabParentObject: {fileID: 100002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_PrefabInternal: {fileID: 1230325544}
+--- !u!114 &1028869713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1028869711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fceaeb339b971b429c4cc600acabd13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweakMode: 0
+  screenBlendMode: 1
+  hdr: 0
+  sepBlurSpread: 2.5
+  quality: 1
+  bloomIntensity: .5
+  bloomThreshold: .219999999
+  bloomThresholdColor: {r: 1, g: 1, b: 1, a: 1}
+  bloomBlurIterations: 2
+  hollywoodFlareBlurIterations: 2
+  flareRotation: 0
+  lensflareMode: 1
+  hollyStretchWidth: 2.5
+  lensflareIntensity: 0
+  lensflareThreshold: .300000012
+  lensFlareSaturation: .75
+  flareColorA: {r: .400000006, g: .400000006, b: .800000012, a: .75}
+  flareColorB: {r: .400000006, g: .800000012, b: .800000012, a: .75}
+  flareColorC: {r: .800000012, g: .400000006, b: .800000012, a: .75}
+  flareColorD: {r: .800000012, g: .400000006, b: 0, a: .75}
+  lensFlareVignetteMask: {fileID: 2800000, guid: 95ef4804fe0be4c999ddaa383536cde8,
+    type: 3}
+  lensFlareShader: {fileID: 4800000, guid: 459fe69d2f6d74ddb92f04dbf45a866b, type: 3}
+  screenBlendShader: {fileID: 4800000, guid: 7856cbff0a0ca45c787d5431eb805bb0, type: 3}
+  blurAndFlaresShader: {fileID: 4800000, guid: be6e39cf196f146d5be72fbefb18ed75, type: 3}
+  brightPassFilterShader: {fileID: 4800000, guid: 0aeaa4cb29f5d4e9c8455f04c8575c8c,
+    type: 3}
 --- !u!114 &1028869715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1132,6 +1170,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1981996287}
   - {fileID: 746039628}
   - {fileID: 961439864}
   - {fileID: 1369175896}
@@ -1184,7 +1223,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 70c802d2104f1d248bc31d8b57e451b5, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 70c802d2104f1d248bc31d8b57e451b5, type: 3}
       propertyPath: m_Name
@@ -1258,7 +1297,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 49c0bbb3a1d920647b2abbe17ca1eb35, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 49c0bbb3a1d920647b2abbe17ca1eb35, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1384,7 +1423,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1f38e6c70bec34248a8a571f8753d7d8, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 1f38e6c70bec34248a8a571f8753d7d8, type: 3}
       propertyPath: m_Name
@@ -1466,7 +1505,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9e377a9e3f8cd8c4e83c6810de8dcff7, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 9e377a9e3f8cd8c4e83c6810de8dcff7, type: 3}
       propertyPath: m_UseLightProbes
@@ -1646,7 +1685,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0645ff246d3be2748845ceb93c8e017f, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 0645ff246d3be2748845ceb93c8e017f, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1716,7 +1755,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f053d6723327a0f4e95a161e70ec36d3, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: f053d6723327a0f4e95a161e70ec36d3, type: 3}
       propertyPath: m_UseLightProbes
@@ -1789,6 +1828,56 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!1001 &1981996286
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1359387669}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 5729f8649375ee34b94d93552003b30e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.97500002
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5729f8649375ee34b94d93552003b30e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.38699996
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5729f8649375ee34b94d93552003b30e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5729f8649375ee34b94d93552003b30e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5729f8649375ee34b94d93552003b30e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5729f8649375ee34b94d93552003b30e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5729f8649375ee34b94d93552003b30e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5729f8649375ee34b94d93552003b30e, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5729f8649375ee34b94d93552003b30e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 5729f8649375ee34b94d93552003b30e, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1981996287
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 5729f8649375ee34b94d93552003b30e, type: 3}
+  m_PrefabInternal: {fileID: 1981996286}
 --- !u!1001 &2090453171
 Prefab:
   m_ObjectHideFlags: 0
@@ -1826,7 +1915,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2794c5b55b5bb0d4f80d0099ff775808, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 2794c5b55b5bb0d4f80d0099ff775808, type: 3}
       propertyPath: m_UseLightProbes
