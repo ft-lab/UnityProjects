@@ -18,7 +18,7 @@ Main MapsはStandard Shaderと同じ指定、AO Map(UV1)でAO Mapを表現して
 
 ## メモ
 
-* 追加したShader(Standard_AO_UV2)についてはUnityのBuildin Shadersを書き換えて利用しました。  
+* 追加したShader(Standard_AO_UV2)についてはUnityのBuildin Shaderを書き換えて利用しました。  
 * 3D形状データはShade 3Dで作成し、fbxに出力してUnityに持ってきました。
 
 形状データについては完全オリジナルですので、自由に使っていただいて構いません。  
