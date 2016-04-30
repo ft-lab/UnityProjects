@@ -2,15 +2,16 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: House_wall_white
-  m_Shader: {fileID: 4800000, guid: 4ad0d858da959764f8519bbea3d2b420, type: 3}
-  m_ShaderKeywords: 
+  m_Shader: {fileID: 4800000, guid: de6b5293f3b154f45a0f1328ef5ec925, type: 3}
+  m_ShaderKeywords: _AOMAP
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
+  stringTagMap: {}
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -84,15 +85,14 @@ Material:
           m_Texture: {fileID: 2800000, guid: bbe2fe0ac66e728439b3be7507ace66a, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AOMap
+        second:
+          m_Texture: {fileID: 2800000, guid: bbe2fe0ac66e728439b3be7507ace66a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
-      data:
-        first:
-          name: _Cutoff
-        second: .5
-      data:
-        first:
-          name: _Shininess
-        second: .104000002
       data:
         first:
           name: _SrcBlend
@@ -103,8 +103,16 @@ Material:
         second: 0
       data:
         first:
+          name: _Cutoff
+        second: 0.5
+      data:
+        first:
+          name: _Shininess
+        second: 0.104
+      data:
+        first:
           name: _Parallax
-        second: .0199999996
+        second: 0.02
       data:
         first:
           name: _ZWrite
@@ -112,7 +120,7 @@ Material:
       data:
         first:
           name: _Glossiness
-        second: .5
+        second: 0.137
       data:
         first:
           name: _BumpScale
@@ -144,7 +152,11 @@ Material:
       data:
         first:
           name: _AOValue
-        second: .796000004
+        second: 0.73
+      data:
+        first:
+          name: _AOMapIntensity
+        second: 0.843
     m_Colors:
       data:
         first:
@@ -157,7 +169,7 @@ Material:
       data:
         first:
           name: _SpecColor
-        second: {r: .5, g: .5, b: .5, a: 1}
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
       data:
         first:
           name: _EmissionColorUI
