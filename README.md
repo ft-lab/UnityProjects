@@ -2,7 +2,8 @@
 
 日本家屋のサンプルです。
 建物（の暗い箇所）を表現するために、Standard ShaderのBuildin Shadersを改造して、
-2つめのUVに対してAO Mapを割り当てることができるようにしてます。
+2つめのUVに対してAO Mapを割り当てることができるようにしてます。  
+Unity 5.3.4f1でリビルドしました。  
 
 <img src="https://github.com/ft-lab/UnityProjects/blob/master/wiki_images/Jpanese_style_room_GI.jpg"/>  
 <img src="https://github.com/ft-lab/UnityProjects/blob/master/wiki_images/Jpanese_style_room_GI2.jpg"/>  
