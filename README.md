@@ -25,3 +25,9 @@ Main MapsはStandard Shaderと同じ指定、AO Map(UV1)でAO Mapを表現して
 * 木材などのテクスチャは、iPhoneで撮影したものをBitmap2Materialで加工して使ってます。
 
 形状データについては完全オリジナルですので、自由に使っていただいて構いません。  
+
+## 更新履歴
+
+[2016/05/08]
+* publishに失敗していた問題を修正
+* Unity 5.3.4p1でビルド
