@@ -1,9 +1,10 @@
 # UnityProjects(Japanese Style Room GI)
 
 日本家屋のサンプルです。
-建物（の暗い箇所）を表現するために、Standard lighting modelのShaderとして
-2つめのUVに対してAO Mapを割り当てることができるようにしてます。  
 Unity 5.5.1f1でリビルドしました。  
+建物はstaticでlightmapベイク(AOもベイク)、
+それ以外はすべてdynamicで、机や椅子などの小物類・野外の井戸や社はStandard lighting modelのShaderとして
+2つめのUVに対してAO Mapを割り当てるようにしました。  
 
 ダウンロード後、「JapaneseStyleRoomGI」をUnityで開くようにしてください。  
 
@@ -13,7 +14,7 @@ Unity 5.5.1f1でリビルドしました。
 
 ## 必要な処理
 
-Image Effectとして、「Post Processing」を使用しています。
+Image Effectとして、「PostProcessing」を使用しています。
 https://github.com/Unity-Technologies/PostProcessing より、Release Beta 4をダウンロードして
 JapaneseStyleRoomGIプロジェクトにインポートするようにしてください。
 
