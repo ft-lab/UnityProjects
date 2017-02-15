@@ -2,7 +2,7 @@
 
 日本家屋のサンプルです。
 Unity 5.5.1f1でリビルドしました。  
-建物はstaticでlightmapベイク(AOもベイク)、
+建物はstaticでlightmapベイク(AOもベイク)、地面もｓｔａｔｉｃ、  
 それ以外はすべてdynamicで、机や椅子などの小物類・野外の井戸や社はStandard lighting modelのShaderとして
 2つめのUVに対してAO Mapを割り当てるようにしました。  
 
@@ -14,14 +14,14 @@ Unity 5.5.1f1でリビルドしました。
 
 ## 必要な処理
 
-Image Effectとして、「PostProcessing」を使用しています。
+Image Effectとして、「PostProcessing」を使用しています。  
 https://github.com/Unity-Technologies/PostProcessing より、Release Beta 4をダウンロードして
 JapaneseStyleRoomGIプロジェクトにインポートするようにしてください。
 
 ## Custom/DiffuseSpecularAOMap
 
-2つめのUVを使ってAO Mapを割り当てるShaderです。
-Standard lighting modelのShaderを使用しているため、LightProbeなどの影響を受け止めているはず。
+2つめのUVを使ってAO Mapを割り当てるShaderです。  
+Standard lighting modelのShaderを使用しているため、LightProbeなどの影響を受け止めているはず。  
 実体は、Assets/Shader内に置いてます。
 
 ## メモ
